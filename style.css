@@ -1,0 +1,44 @@
+#technologies > li::before {
+  content: "⏳ ";
+}
+
+#technologies > li::marker {
+  content: "";
+}
+
+#technologies > li:hover {
+  color: red;
+}
+
+#technologies > .checked::before {
+  content: "✅";
+}
+
+#technologies > .checked::marker {
+  content: "";
+}
+
+.task-2::first-line {
+  background-color: blue;
+}
+
+.task-2::selection {
+  background-color: green;
+}
+
+.task-2::first-letter {
+  background-color: red;
+}
+
+::-webkit-scrollbar {
+  width: 30px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: blue;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: red;
+  border-radius: 10px;
+}
